@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-02",
+  "sources": [
+    {
+      "id": "databricks-ai-dev-kit",
+      "type": "github-repo",
+      "url": "https://github.com/databricks-solutions/ai-dev-kit",
+      "title": "Databricks AI Dev Kit",
+      "description": "Databricks Toolkit for AI Coding Agents — MCP server, skills, and core library for building on Databricks with Claude Code, Cursor, etc.",
+      "topics": ["databricks", "ai-agents", "mcp-servers", "vibe-coding", "claude-code", "cursor"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 744,
+      "language": "Python",
+      "notes": "Official Databricks solution — Gold certified project. 50+ MCP tools, 19 skills."
+    },
+    {
+      "id": "claude-code-skills",
+      "type": "article",
+      "url": "https://code.claude.com/docs/en/skills",
+      "title": "Claude Code Skills — Official Documentation",
+      "description": "Complete guide to creating, managing, and sharing skills to extend Claude Code capabilities.",
+      "topics": ["claude-code", "skills", "developer-tools", "ai-coding-assistants", "mcp-servers"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "notes": "Official Anthropic documentation. Covers bundled skills, custom skills, subagents, frontmatter config."
+    },
+    {
+      "id": "openclaw-use-cases",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=C4fTWiOGXpM",
+      "title": "7 Insane OpenClaw Use Cases (AntiGravity)",
+      "description": "Video by Jack Roberts showcasing creative applications of OpenClaw technology.",
+      "topics": ["openclaw", "ai-hardware", "use-cases", "robotics"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "channel": "Jack Roberts (@Itssssss_Jack)",
+      "notes": "Explores creative/unconventional use cases for OpenClaw platform."
+    }
+  ]
+}

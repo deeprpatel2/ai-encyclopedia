@@ -1,0 +1,16 @@
+{
+  "name": "ai-knowledgebase",
+  "version": "1.0.0",
+  "description": "DP Patel AI Knowledge Base — Personal AI Encyclopedia",
+  "author": "DP Patel",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "process": "node scripts/process-sources.js",
+    "add": "node scripts/add-source.js",
+    "index": "node scripts/build-index.js",
+    "discover": "node scripts/discover.js",
+    "all": "node scripts/process-sources.js && node scripts/build-index.js"
+  },
+  "dependencies": {}
+}
