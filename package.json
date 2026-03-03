@@ -1,8 +1,8 @@
 {
   "name": "ai-knowledgebase",
   "version": "1.0.0",
-  "description": "DP Patel AI Knowledge Base — Personal AI Encyclopedia",
-  "author": "DP Patel",
+  "description": "AI Encyclopedia — Open-source, community-driven AI knowledge base",
+  "author": "AI Encyclopedia Contributors",
   "license": "MIT",
   "type": "module",
   "scripts": {

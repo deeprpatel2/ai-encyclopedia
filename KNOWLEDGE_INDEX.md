@@ -1,4 +1,4 @@
-# DP Patel AI Knowledge Index
+# AI Encyclopedia — Knowledge Index
 
 > Auto-generated master index of all knowledge base sources. Last updated: 2026-03-03
 

@@ -54,7 +54,7 @@ function main() {
   };
 
   // Build index
-  let md = `# DP Patel AI Knowledge Index
+  let md = `# AI Encyclopedia — Knowledge Index
 
 > Auto-generated master index of all knowledge base sources. Last updated: ${new Date().toISOString().split('T')[0]}
 
