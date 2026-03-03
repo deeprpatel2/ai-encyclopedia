@@ -37,6 +37,80 @@
       "status": "processed",
       "channel": "Jack Roberts (@Itssssss_Jack)",
       "notes": "Explores creative/unconventional use cases for OpenClaw platform."
+    },
+    {
+      "id": "mcp-official-specification",
+      "type": "article",
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25",
+      "title": "MCP Official Specification",
+      "description": "The authoritative Model Context Protocol specification — architecture, primitives (tools, resources, prompts), transports, security, and capability negotiation.",
+      "topics": ["mcp", "mcp-servers", "protocol", "specification", "ai-agents", "json-rpc"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "notes": "Protocol version 2025-11-25. Stable release 2026.1.0. Created by Anthropic, adopted by OpenAI, Google DeepMind, Microsoft."
+    },
+    {
+      "id": "mcp-build-server-tutorial",
+      "type": "article",
+      "url": "https://modelcontextprotocol.io/docs/develop/build-server",
+      "title": "Build an MCP Server — Official Tutorial",
+      "description": "Step-by-step tutorial to build MCP servers in Python (FastMCP) and TypeScript, then connect to Claude Desktop.",
+      "topics": ["mcp", "mcp-servers", "tutorial", "python", "typescript", "fastmcp"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "notes": "Official Anthropic tutorial. Builds a weather server with get_alerts and get_forecast tools."
+    },
+    {
+      "id": "mcp-official-servers",
+      "type": "github-repo",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "title": "MCP Official Reference Servers",
+      "description": "Official collection of Model Context Protocol servers — reference implementations for filesystem, git, memory, fetch, and more.",
+      "topics": ["mcp", "mcp-servers", "reference-implementation", "ai-tools"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 79902,
+      "language": "TypeScript",
+      "notes": "79,900+ stars. Includes Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking, Time servers."
+    },
+    {
+      "id": "mcp-typescript-sdk",
+      "type": "github-repo",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "title": "MCP TypeScript SDK",
+      "description": "Official TypeScript SDK for building MCP servers and clients. McpServer class, Zod validation, stdio + HTTP transports.",
+      "topics": ["mcp", "mcp-servers", "typescript", "sdk", "ai-tools"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 11728,
+      "language": "TypeScript",
+      "notes": "Package: @modelcontextprotocol/sdk. Includes server, client, middleware (Express, Hono), and OAuth helpers."
+    },
+    {
+      "id": "mcp-python-sdk",
+      "type": "github-repo",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "title": "MCP Python SDK (FastMCP)",
+      "description": "Official Python SDK with FastMCP — type hints + docstrings auto-generate tool definitions. Most popular MCP SDK.",
+      "topics": ["mcp", "mcp-servers", "python", "sdk", "fastmcp", "ai-tools"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 21923,
+      "language": "Python",
+      "notes": "21,900+ stars. FastMCP: decorator-based tool/resource/prompt definitions. Package: mcp[cli]."
+    },
+    {
+      "id": "github-mcp-server",
+      "type": "github-repo",
+      "url": "https://github.com/github/github-mcp-server",
+      "title": "GitHub Official MCP Server",
+      "description": "GitHub's official MCP Server for AI-powered GitHub operations — repos, issues, PRs, code search, actions.",
+      "topics": ["mcp", "mcp-servers", "github", "devops", "ai-tools"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 27398,
+      "language": "Go",
+      "notes": "27,400+ stars. Official GitHub project. Runs via Docker. Requires GitHub PAT."
     }
   ]
 }
