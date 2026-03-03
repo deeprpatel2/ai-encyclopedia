@@ -12,8 +12,7 @@
       "added": "2026-03-02",
       "status": "processed",
       "stars": 744,
-      "language": "Python",
-      "notes": "Official Databricks solution — Gold certified project. 50+ MCP tools, 19 skills."
+      "language": "Python"
     },
     {
       "id": "claude-code-skills",
@@ -23,8 +22,7 @@
       "description": "Complete guide to creating, managing, and sharing skills to extend Claude Code capabilities.",
       "topics": ["claude-code", "skills", "developer-tools", "ai-coding-assistants", "mcp-servers"],
       "added": "2026-03-02",
-      "status": "processed",
-      "notes": "Official Anthropic documentation. Covers bundled skills, custom skills, subagents, frontmatter config."
+      "status": "processed"
     },
     {
       "id": "openclaw-use-cases",
@@ -35,82 +33,179 @@
       "topics": ["openclaw", "ai-hardware", "use-cases", "robotics"],
       "added": "2026-03-02",
       "status": "processed",
-      "channel": "Jack Roberts (@Itssssss_Jack)",
-      "notes": "Explores creative/unconventional use cases for OpenClaw platform."
+      "channel": "Jack Roberts (@Itssssss_Jack)"
     },
     {
       "id": "mcp-official-specification",
       "type": "article",
       "url": "https://modelcontextprotocol.io/specification/2025-11-25",
       "title": "MCP Official Specification",
-      "description": "The authoritative Model Context Protocol specification — architecture, primitives (tools, resources, prompts), transports, security, and capability negotiation.",
+      "description": "The authoritative Model Context Protocol specification — architecture, primitives, transports, security.",
       "topics": ["mcp", "mcp-servers", "protocol", "specification", "ai-agents", "json-rpc"],
       "added": "2026-03-02",
-      "status": "processed",
-      "notes": "Protocol version 2025-11-25. Stable release 2026.1.0. Created by Anthropic, adopted by OpenAI, Google DeepMind, Microsoft."
+      "status": "processed"
     },
     {
       "id": "mcp-build-server-tutorial",
       "type": "article",
       "url": "https://modelcontextprotocol.io/docs/develop/build-server",
       "title": "Build an MCP Server — Official Tutorial",
-      "description": "Step-by-step tutorial to build MCP servers in Python (FastMCP) and TypeScript, then connect to Claude Desktop.",
+      "description": "Step-by-step tutorial to build MCP servers in Python (FastMCP) and TypeScript.",
       "topics": ["mcp", "mcp-servers", "tutorial", "python", "typescript", "fastmcp"],
       "added": "2026-03-02",
-      "status": "processed",
-      "notes": "Official Anthropic tutorial. Builds a weather server with get_alerts and get_forecast tools."
+      "status": "processed"
     },
     {
       "id": "mcp-official-servers",
       "type": "github-repo",
       "url": "https://github.com/modelcontextprotocol/servers",
       "title": "MCP Official Reference Servers",
-      "description": "Official collection of Model Context Protocol servers — reference implementations for filesystem, git, memory, fetch, and more.",
+      "description": "Official collection of Model Context Protocol servers — filesystem, git, memory, fetch, and more.",
       "topics": ["mcp", "mcp-servers", "reference-implementation", "ai-tools"],
       "added": "2026-03-02",
       "status": "processed",
       "stars": 79902,
-      "language": "TypeScript",
-      "notes": "79,900+ stars. Includes Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking, Time servers."
+      "language": "TypeScript"
     },
     {
       "id": "mcp-typescript-sdk",
       "type": "github-repo",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk",
       "title": "MCP TypeScript SDK",
-      "description": "Official TypeScript SDK for building MCP servers and clients. McpServer class, Zod validation, stdio + HTTP transports.",
+      "description": "Official TypeScript SDK for building MCP servers and clients.",
       "topics": ["mcp", "mcp-servers", "typescript", "sdk", "ai-tools"],
       "added": "2026-03-02",
       "status": "processed",
       "stars": 11728,
-      "language": "TypeScript",
-      "notes": "Package: @modelcontextprotocol/sdk. Includes server, client, middleware (Express, Hono), and OAuth helpers."
+      "language": "TypeScript"
     },
     {
       "id": "mcp-python-sdk",
       "type": "github-repo",
       "url": "https://github.com/modelcontextprotocol/python-sdk",
       "title": "MCP Python SDK (FastMCP)",
-      "description": "Official Python SDK with FastMCP — type hints + docstrings auto-generate tool definitions. Most popular MCP SDK.",
+      "description": "Official Python SDK with FastMCP — auto-generate tool definitions from type hints.",
       "topics": ["mcp", "mcp-servers", "python", "sdk", "fastmcp", "ai-tools"],
       "added": "2026-03-02",
       "status": "processed",
       "stars": 21923,
-      "language": "Python",
-      "notes": "21,900+ stars. FastMCP: decorator-based tool/resource/prompt definitions. Package: mcp[cli]."
+      "language": "Python"
     },
     {
       "id": "github-mcp-server",
       "type": "github-repo",
       "url": "https://github.com/github/github-mcp-server",
       "title": "GitHub Official MCP Server",
-      "description": "GitHub's official MCP Server for AI-powered GitHub operations — repos, issues, PRs, code search, actions.",
+      "description": "GitHub's official MCP Server for AI-powered GitHub operations.",
       "topics": ["mcp", "mcp-servers", "github", "devops", "ai-tools"],
       "added": "2026-03-02",
       "status": "processed",
       "stars": 27398,
-      "language": "Go",
-      "notes": "27,400+ stars. Official GitHub project. Runs via Docker. Requires GitHub PAT."
+      "language": "Go"
+    },
+    {
+      "id": "openclaw",
+      "type": "github-repo",
+      "url": "https://github.com/openclaw/openclaw",
+      "title": "OpenClaw — Open Source Personal AI Agent",
+      "description": "Your own personal AI assistant. Any OS. Any platform. 248K+ stars. Caused the Mac Mini shortage.",
+      "topics": ["openclaw", "ai-agents", "personal-assistant", "open-source", "messaging", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 248540,
+      "language": "TypeScript"
+    },
+    {
+      "id": "oh-my-opencode",
+      "type": "github-repo",
+      "url": "https://github.com/code-yeongyu/oh-my-opencode",
+      "title": "Oh My OpenCode — Multi-Model AI Agent Orchestrator",
+      "description": "Open-source Claude Code alternative with multi-model support, parallel agents, and deterministic refactoring.",
+      "topics": ["ai-coding", "open-source", "multi-model", "agents", "developer-tools", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 36249,
+      "language": "TypeScript"
+    },
+    {
+      "id": "deepseek",
+      "type": "github-repo",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "title": "DeepSeek — Open-Source AI Models from China",
+      "description": "DeepSeek-V3 (671B MoE) and R1 (reasoning). Trained for $6M, rivals GPT-4. Open-weight, MIT licensed.",
+      "topics": ["deepseek", "llm", "open-source-llms", "chinese-ai", "moe", "reasoning", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 70000,
+      "language": "Python"
+    },
+    {
+      "id": "ollama",
+      "type": "github-repo",
+      "url": "https://github.com/ollama/ollama",
+      "title": "Ollama — Run LLMs Locally",
+      "description": "Docker for AI models. Run DeepSeek, Llama, Qwen, Mistral locally with one command. 163K+ stars.",
+      "topics": ["ollama", "local-ai", "inference", "open-source", "ai-tools", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 163855,
+      "language": "Go"
+    },
+    {
+      "id": "hugging-face",
+      "type": "github-repo",
+      "url": "https://github.com/huggingface/transformers",
+      "title": "Hugging Face Transformers — The AI Model Hub",
+      "description": "500K+ models. The GitHub of AI. ggml.ai joined HF in 2026 to secure local AI's future.",
+      "topics": ["hugging-face", "transformers", "ml-platform", "open-source", "models", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 157259,
+      "language": "Python"
+    },
+    {
+      "id": "langchain",
+      "type": "github-repo",
+      "url": "https://github.com/langchain-ai/langchain",
+      "title": "LangChain & LangGraph — Agent Engineering Platform",
+      "description": "Build AI agents and RAG pipelines. LangGraph for stateful agent graphs. 128K+ stars.",
+      "topics": ["langchain", "langgraph", "ai-agents", "rag", "framework", "llm", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 127964,
+      "language": "Python"
+    },
+    {
+      "id": "crewai",
+      "type": "github-repo",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "title": "CrewAI — Multi-Agent Orchestration Framework",
+      "description": "Build teams of role-playing AI agents. Crews + Flows architecture. 45K+ stars.",
+      "topics": ["crewai", "ai-agents", "multi-agent", "orchestration", "framework", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed",
+      "stars": 44994,
+      "language": "Python"
+    },
+    {
+      "id": "mac-mini-local-ai",
+      "type": "article",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openclaw-fueled-ordering-frenzy-creates-apple-mac-shortage",
+      "title": "Mac Mini M4 as AI Server — The Local Inference Revolution",
+      "description": "How OpenClaw caused a Mac Mini shortage. Configs, benchmarks, and setup guide for local AI.",
+      "topics": ["mac-mini", "local-ai", "ollama", "openclaw", "hardware", "edge-ai", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed"
+    },
+    {
+      "id": "open-source-llms-2026",
+      "type": "article",
+      "url": "https://huggingface.co/blog/daya-shankar/open-source-llms",
+      "title": "Open Source LLMs in 2026 — Complete Landscape",
+      "description": "DeepSeek, Llama 4, Qwen 2.5, Mistral, Gemma 3, GLM5 — every major open model compared.",
+      "topics": ["open-source-llms", "llama", "qwen", "mistral", "deepseek", "gemma", "2026-top"],
+      "added": "2026-03-02",
+      "status": "processed"
     }
   ]
 }
